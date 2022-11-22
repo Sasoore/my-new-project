@@ -3,19 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Hello Github</h1>
-    <h2>Test</h2>
+    <h1>Search Engine</h1>
+    <h3 id="city"></h3>
+    <h2 id="temp"></h2>
+
     <form>
-      <input type="email" placeholder="enter your email" />
-      <input type="password" placeholder="enter your password" />
-      <input type="submit" value="login" />
+      <input type="text" placeholder="Search for a city" id="search-input" />
+      <input type="submit" value="search" id="search" />
+      <input type="submit" value="current" id="current" />
     </form>
-    <input type="submit" value="just to check" />
     <script src="script.js"></script>
   </body>
 </html>
